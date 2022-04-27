@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/sad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sad"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_column="0"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/bruh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bruh"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_column="1"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/erorr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="error"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_column="0"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/yah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yaaah"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_column="1"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="run"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_column="0"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/wideput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wide putin"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_column="1"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/spiderman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spiderman"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_column="0"
+            android:onClick="buttonTapped"/>
+
+        <Button
+            android:id="@+id/jojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jojo"
+            android:layout_margin="5dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_column="1"
+            android:onClick="buttonTapped"/>
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</RelativeLayout>
